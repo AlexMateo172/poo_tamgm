@@ -31,7 +31,11 @@ class LibrodeBiblioteca:
     def abrir(self):
         print(f"Estoy leyendo el Libro")
     def aprender(self):
-        print        
+        print(f"Estoy aprendiendo del Libro")
+    def pensar(self):
+        print(f"Estoy pensando con el Libro")
+    def comprender(self):
+        print(f"Estoy comprendiendo con el Libro")                
 
 los_hornos_de_hitler = LibrodeBiblioteca(
     "Los Hornos de Hitler", "Olga Lengyel", "Crónica", "Disponible", 
@@ -39,3 +43,7 @@ los_hornos_de_hitler = LibrodeBiblioteca(
 )
 
 los_hornos_de_hitler.leer()
+los_hornos_de_hitler.abrir()
+los_hornos_de_hitler.aprender()
+los_hornos_de_hitler.pensar()
+los_hornos_de_hitler.comprender()
