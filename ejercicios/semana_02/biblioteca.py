@@ -28,6 +28,10 @@ class LibrodeBiblioteca:
         
     def leer(self):
         print(f"Estoy leyendo el Libro")
+    def abrir(self):
+        print(f"Estoy leyendo el Libro")
+    def aprender(self):
+        print        
 
 los_hornos_de_hitler = LibrodeBiblioteca(
     "Los Hornos de Hitler", "Olga Lengyel", "Crónica", "Disponible", 
