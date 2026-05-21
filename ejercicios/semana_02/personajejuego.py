@@ -25,14 +25,59 @@ class PersonajedelJuego:
 
     def correr(self):
         print(f"El personaje esta corriendo")
+        """
+        Este metodo incrementa el movimiento para que El personaje corra, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def saltar(self):
         print(f"El personaje esta saltando")
+        """
+        Este metodo realiza la accion de elevarse para que El personaje salte, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def frenar(self):
         print(f"Esta frenando el personaje")
+        """
+        Este metodo se encarga de detener el movimiento de el personaje, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def rodar(self):
         print(f"Esta rodando el personaje")
+        """
+        Este metodo hace que el personaje gire sobre su propio eje rodando, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def agacharse(self):
         print(f"Esta agachandose el personaje")
+        """
+        Este metodo reduce la altura de el personaje al agacharse, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
 
 sonic = PersonajedelJuego(
     "Sonic","Erizo","Azul","Supersonica",
