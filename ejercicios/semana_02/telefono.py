@@ -28,24 +28,114 @@ class Telefono:
 
     def encender(self):    
         print(f"Estoy encendiendo el Telefono")
+        """
+        Este metodo se encarga de iniciar el sistema de el Telefono, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def apagar(self):
         print(f"Estoy apagando el Telefono")
+        """
+        Este metodo realiza la accion de apagar el sistema de el Telefono, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def navegar(self):
         print(f"Estoy navegado el Telefono")
+        """
+        Este metodo permite explorar la red a traves de el Telefono, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def ejecutando(self):
         print(f"Estoy ejecutando una Aplicacion")
+        """
+        Este metodo inicia y corre una tarea dentro de el Telefono, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def cargar(self):
         print(f"Estoy cargando mi tekefono")
+        """
+        Este metodo conecta el Telefono para suministrarle energia, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def tomarFotos(self):
         print(f"Estoy tomando fotos")
+        """
+        Este metodo utiliza la camara de el Telefono para capturar imagenes, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def enviarMensajes(self):
         print(f"Estoy enviando mensajes")
+        """
+        Este metodo transmite texto o informacion desde el Telefono, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def hacerLlamadas(self):
         print(f"Estoy haciendo una Lamada")
+        """
+        Este metodo enlaza una comunicacion por voz usando el Telefono, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def refrigerar(self):
         print(f"Se esta refrigerando el telefono")
+        """
+        Este metodo reduce la temperatura interna de el telefono, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def procesar(self):
         print(f"Esta procesando el Telefono")
+        """
+        Este metodo ejecuta las operaciones logicas y calculos de el Telefono, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
 
 
 redmagic9_pro = Telefono(
