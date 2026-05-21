@@ -18,20 +18,74 @@ class Coche:
         print(f"Motor del Coche: {self.motor}")
         print(f"Color del Coche: {self.color}")
         print(f"Transmisión: {self.transmision}")
-        print(f"Placa del Coche: {self.placa}\n") # Un salto de línea para separar
+        print(f"Placa del Coche: {self.placa}") 
         
     def encender(self):
         print("Estoy encendiendo el coche")
+        """
+        Este metodo se encarga de iniciar el motor de el coche, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def apagar(self):
         print("Estoy apagando el coche")
+        """
+        Este metodo realiza la accion de apagar el motor de el coche, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def acelerar(self):
         print("Estoy acelerando el coche") 
+        """
+        Este metodo incrementa la velocidad de el coche, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def derrapar(self):
         print("Estoy derrapando el coche")
+        """
+        Este metodo simula la perdida de traccion de el coche al deslizarse, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def cambiarvelocidad(self):
-        print("Estoy cambiando de velocidad")    
+        print("Estoy cambiando de velocidad")  
+        """
+        Este metodo realiza el cambio de marcha o velocidad de el coche, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """  
     def tocarclaxon(self):
-        print("Estoy tocando el claxon del coche")                  
+        print("Estoy tocando el claxon del coche")  
+        """
+        Este metodo emite el sonido de advertencia de el claxon del coche, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """                
 
 
 
