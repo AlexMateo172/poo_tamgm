@@ -25,17 +25,62 @@ class Mesa:
 
     def armar(self):
         print(f"Estoy armando la Mesa")
+        """
+        Este metodo se encarga de ensamblar las partes de la Mesa, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def desarmar(self):
         print(f"Estoy desarmando la Mesa")
+        """
+        Este metodo realiza la accion de separar las piezas de la Mesa, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def soportar(self):
         print(f"Yo soporto la Mesa")
+        """
+        Este metodo simula la funcion de sostener objetos sobre la Mesa, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def limpiar(self):
         print(f"Yo limpio la Mesa")
+        """
+        Este metodo realiza la accion de quitar la suciedad de la Mesa, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def mover(self):
         print(f"Yo muevo la Mesa")
+        """
+        Este metodo permite cambiar de lugar o desplazar la Mesa, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
 
 mesa_comedor_imperial = Mesa(
-    "Roble Europeo","Marron","3 Metros","1,2 metros",
+    "Roble Europeo","Marron","3 Metros" ,"1,2 metros",
     "0.83 metros","120 kg","12 personas","5 cm","Rustico",
     "15000 pesos"
 )
