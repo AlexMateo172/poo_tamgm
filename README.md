@@ -59,6 +59,4 @@ Crear el archivo .gitignore para comfigurar los archivos y carpetas que no desea
       suma =variable_uno + variable_dos - suma las dos variables
       return int(suma) - El resturn regresa el resultado el int dicta que sea entero osea la suma un numero entero
 (""")
-   
-
 ````        
