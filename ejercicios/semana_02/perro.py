@@ -26,14 +26,59 @@ class Perro:
 
     def ladrar(self):
         print("El perro está ladrando")
+        """
+        Este metodo simula el sonido o ladrido de El perro, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def resoplar(self):
         print("El perro está resoplando")
+        """
+        Este metodo realiza la accion de resoplar por parte de El perro, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def correr(self):
         print("El perro está corriendo")
+        """
+        Este metodo incrementa el movimiento para que El perro corra, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def dormir(self):
         print("El perro está durmiendo")
+        """
+        Este metodo simula el estado de descanso o sueño de El perro, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def comer(self):
         print("El perro está comiendo")
+        """
+        Este metodo realiza la accion de ingerir alimentos de El perro, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
 
 toby = Perro(
     "Toby", "Pug", "8", "Arena",
