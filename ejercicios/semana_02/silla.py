@@ -25,14 +25,59 @@ class Silla:
 
     def equilibrar(self):
         print(f"Estoy equilibrando la Silla")
+        """
+        Este metodo se encarga de nivelar o dar estabilidad a la silla, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def pintar(self):
         print(f"Estoy pintando la silla")
+        """
+        Este metodo aplica color sobre la superficie de la silla, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def reparar(self):
         print(f"Estoy reparando la silla")
+        """
+        Este metodo realiza arreglos para corregir fallos en la silla, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def tapizar(self):
         print(f"Estoy tapizando la silla")
+        """
+        Este metodo cubre el asiento o respaldo de la silla con tela, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def barnizar(self):
         print(f"Estoy barnizando la silla")
+        """
+        Este metodo aplica una capa protectora de barniz a la silla, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
 
 silla_comedor_imperial = Silla(
     "Roble Europeo","Marron","1.10 Metros","0.45 metros",
