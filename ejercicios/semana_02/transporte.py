@@ -28,14 +28,59 @@ class Transporte:
    
     def arrancar(self):
         print(f"Estoy arrancando el autobus")
+        """
+        Este metodo se encarga de iniciar el motor de el autobus, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def acelerar(self):
         print(f"Estoy acelerando el autobus")
+        """
+        Este metodo incrementa la velocidad de el autobus, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def frenar(self):
         print(f"Estoy Frenando el autobus") 
+        """
+        Este metodo se encarga de detener el movimiento de el autobus, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def girar(self):
         print(f"Yo estoy girando el autobus")
+        """
+        Este metodo cambia la direccion de movimiento de el autobus, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def apagar(self):
-        print(f"Yo apago el autobus")                  
+        print(f"Yo apago el autobus")  
+        """
+        Este metodo realiza la accion de apagar el motor de el autobus, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """                
 
 autobus = Transporte(
     "Autobus Dao", "Terrestre", "Mercedes", "Diesel", 
