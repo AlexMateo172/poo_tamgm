@@ -83,6 +83,7 @@ class Alumno:
    
 
 
+
 mateo = Alumno(
     "Mateo","17200","TIC","2do Cuatrimestre",
     "9.5","19","mateo@alumno","UTEC tulancingo",

@@ -28,15 +28,59 @@ class LibrodeBiblioteca:
         
     def leer(self):
         print(f"Estoy leyendo el Libro")
+        """
+        Este metodo simula la accion de leer el contenido de el Libro, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def abrir(self):
         print(f"Estoy leyendo el Libro")
+        """
+        Este metodo realiza la accion de abrir el Libro para su uso, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def aprender(self):
         print(f"Estoy aprendiendo del Libro")
+        """
+        Este metodo permite adquirir conocimientos a partir de el Libro, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def pensar(self):
         print(f"Estoy pensando con el Libro")
+        """
+        Este metodo simula el proceso de reflexionar utilizando la informacion de el Libro, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def comprender(self):
         print(f"Estoy comprendiendo con el Libro")                
-
+        """
+        Este metodo se encarga de entender y asimilar las ideas de el Libro, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
 los_hornos_de_hitler = LibrodeBiblioteca(
     "Los Hornos de Hitler", "Olga Lengyel", "Crónica", "Disponible", 
     "Español", "1947", "Gastado-Sucio", "270", "serif", "+18"
