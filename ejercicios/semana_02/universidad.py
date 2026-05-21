@@ -25,19 +25,66 @@ class Universidad:
 
     def enseñar(self):
         print(f"Me estan enseñando en la Universidad")
+        """
+        Este metodo simula el proceso de transmitir conocimientos en la Universidad, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def aprender(self):
         print(f"Estoy aprendiendo en la Universidad")
+        """
+        Este metodo permite adquirir nuevos conocimientos en la Universidad, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def estudiar(self): 
         print(f"Estoy Estudiando para la Universidad")
+        """
+        Este metodo realiza el repaso de contenidos para la Universidad, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def practicar(self):
         print(f"Estoy Practicando para la Universidad")
+        """
+        Este metodo ejecuta ejercicios o actividades practicas para la Universidad, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
     def capacitar(self):
         print(f"Me estoy capacitando para la Universidad")
+        """
+        Este metodo desarrolla habilidades y competencias para la Universidad, se enfoca en los metodos de el codigo
+        
+        : args - Argumentos
+        
+        Ninguno : - No recibe parametros de entrada
+        
+        Return: - No regresa ningun valor, solo imprime un mensaje en pantalla
+        """
 
-unideh = Universidad("Logo.jpg","Ing.Software,Turismo Alternativo","San Miguel","CADU",
-                     "Virtual","Biblioteca digital","Santa Caterina",None,None,
-                     "Octacvio castillo"
-                      )                       
+unideh = Universidad(
+    "Logo.jpg","Ing.Software,Turismo Alternativo","San Miguel","CADU",
+     "Virtual","Biblioteca digital","Santa Caterina",None,None,
+     "Octacvio castillo"
+     )    
+                   
 unideh.enseñar()
 unideh.aprender()
 unideh.estudiar()
